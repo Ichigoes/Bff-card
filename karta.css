@@ -9,18 +9,62 @@ body {
     width: 150px;
     border-radius: 50%;
     border: 6px solid rgb(165, 29, 51);
+    margin-bottom: 10px;
 }
 
 h1, h2, h3, h4, p {
     text-shadow: 0 0 1px black;
 }
 
-h2, h4 {
+#date {
     background-color: rgb(165, 29, 51);
+    padding: 5px 10px;
+    border-radius: 5px;
+    margin: 0;
+}
+
+#age {
+    background-color: rgb(165, 29, 51);
+    padding: 5px 10px;
+    border-radius: 5px;
+    margin: 5px 0 10px 0;
 }
 
 #header {
     display: flex;
     flex-direction: column;
     align-items: center; 
+}
+
+#ift-section {
+    margin-top: 50px;
+}
+
+
+.mas {
+    color: white;
+    text-shadow: 0 0 1px black;
+    margin: 50px 0 0 0;
+
+}
+
+.hint {
+    color: white;
+    text-shadow: 0 0 1px black;
+    margin: 10px 0 30px 0;
+}
+
+.gift-img {
+    margin: 0 auto;
+    width: 400px;
+    height: 400px;
+    background-image: url("cover-present.jpg");
+    background-size: cover;
+    border: 10px solid white;
+    border-radius: 10px;
+    width: 400px;
+}
+
+.gift-img:hover {
+    background-image: url("bday-639.gif");
 }
